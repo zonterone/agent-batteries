@@ -1,0 +1,9 @@
+{
+  "name": "zonterone-skills",
+  "displayName": "code-comments",
+  "description": "Keeps code comments to a minimum: classifies each one and keeps only decision records.",
+  "author": { "name": "zonterone" },
+  "repository": "https://github.com/zonterone/cc-batteries",
+  "license": "MIT",
+  "homepage": "https://github.com/tonanywhere/my-favorite-prompts/tree/main/skills/code-comments"
+}

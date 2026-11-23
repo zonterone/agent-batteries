@@ -28,10 +28,11 @@ Skills load under the `zonterone-skills` namespace, for example `zonterone-skill
 
 | Plugin | What it does |
 | --- | --- |
-| `ts-coding` | Bundle. Installs `ts-code-style`, `karpathy-guidelines` and `deep-code-review`. |
+| `ts-coding` | Bundle. Installs `ts-code-style`, `code-comments`, `karpathy-guidelines` and `deep-code-review`. |
 | `ts-code-style` | Opinionated TypeScript/JavaScript code style guide. |
 | `karpathy-guidelines` | Behavioral guidelines that reduce common LLM coding mistakes. |
 | `deep-code-review` | Code review by three parallel reviewer subagents, every finding verified against the code. |
+| `code-comments` | Keeps code comments to a minimum: classifies each one and keeps only decision records. |
 | `react-code-style` | Recommendations for writing React code: derived state, Effects, re-renders and memoization. |
 | `neverthrow` | Project convention for error handling with [neverthrow](https://github.com/supermacro/neverthrow). |
 | `ts-pattern` | Project convention for pattern matching with [ts-pattern](https://github.com/gvergnaud/ts-pattern). |
@@ -56,6 +57,8 @@ or turn on auto-update for the marketplace in `/plugin`.
 ## Credits
 
 `karpathy-guidelines` is adapted from [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) by forrestchang, MIT licensed. The skill description is changed; the body is unmodified.
+
+`code-comments` takes its comment classes from [Matt Pocock's comment-cleanup prompt](https://x.com/mattpocockuk/status/2123798388227403983), and the diff audit and the sweep from [tonanywhere's code-comments skill](https://github.com/tonanywhere/my-favorite-prompts/tree/main/skills/code-comments), MIT licensed. The wording and the policy are its own: a decision record stays in the code as one line.
 
 `react-code-style` distils the React docs, mainly the [Escape Hatches](https://react.dev/learn/escape-hatches) chapter, and these articles; the wording and the examples are its own:
 
