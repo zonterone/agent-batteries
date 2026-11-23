@@ -13,13 +13,9 @@ You prioritize readable, explicit code over overly compact solutions. This is a 
 
 ## Comments
 
-Code reads without comments by default: names, types and structure carry the intent.
+Code reads without comments by default: names, types and structure carry the intent. `zonterone-skills:code-comments` decides which comments survive. On top of it, in TypeScript:
 
-- an urge to comment is a signal to rewrite first: rename, extract a named constant or function, or encode the constraint in a type
-- a comment earns its line only as a _why_ the code cannot express: the cause of a workaround, a non-obvious constraint or invariant, a link to the bug or spec behind a decision
-- a comment describes the code as it stands, in one or two lines; the history of a change goes to the commit message
-- JSDoc passes the same test: it states what the signature cannot (units, side effects, thrown errors)
-- existing comments stay; one that your change makes false is updated or deleted
+- a constraint a comment would state goes into a type first
 - every stub, mock or unwired handler carries a one-line `TODO` naming what completes it
 
 ## Style Guide
