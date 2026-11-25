@@ -1,8 +1,0 @@
-{
-  "name": "zonterone-skills",
-  "displayName": "ts-pattern",
-  "description": "Opinionated project convention for pattern matching with the ts-pattern library. Enable it per project.",
-  "author": { "name": "zonterone" },
-  "repository": "https://github.com/zonterone/agent-batteries",
-  "license": "MIT"
-}

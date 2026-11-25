@@ -4,12 +4,56 @@
   "description": "A collection of Claude Code skills: coding guidelines, deep code review, code style and library conventions.",
   "plugins": [
     { "name": "ts-coding", "source": "./plugins/ts-coding" },
-    { "name": "ts-code-style", "source": "./skills/ts-code-style" },
-    { "name": "karpathy-guidelines", "source": "./skills/karpathy-guidelines" },
-    { "name": "deep-code-review", "source": "./skills/deep-code-review" },
-    { "name": "code-comments", "source": "./skills/code-comments" },
-    { "name": "react-code-style", "source": "./skills/react-code-style" },
-    { "name": "neverthrow", "source": "./skills/neverthrow" },
-    { "name": "ts-pattern", "source": "./skills/ts-pattern" }
+    {
+      "name": "ts-code-style",
+      "source": "./",
+      "skills": ["./skills/ts-code-style"],
+      "displayName": "ts-code-style",
+      "description": "Opinionated TypeScript/JavaScript code style guide."
+    },
+    {
+      "name": "karpathy-guidelines",
+      "source": "./",
+      "skills": ["./skills/karpathy-guidelines"],
+      "displayName": "karpathy-guidelines",
+      "description": "Behavioral guidelines that reduce common LLM coding mistakes: think before coding, simplicity first, surgical changes, goal-driven execution.",
+      "homepage": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "name": "deep-code-review",
+      "source": "./",
+      "skills": ["./skills/deep-code-review"],
+      "displayName": "deep-code-review",
+      "description": "Deep code review by three parallel reviewer subagents (quality, implementation, simplification), every finding verified against the code."
+    },
+    {
+      "name": "code-comments",
+      "source": "./",
+      "skills": ["./skills/code-comments"],
+      "displayName": "code-comments",
+      "description": "Keeps code comments to a minimum: classifies each one and keeps only decision records.",
+      "homepage": "https://github.com/tonanywhere/my-favorite-prompts/tree/main/skills/code-comments"
+    },
+    {
+      "name": "react-code-style",
+      "source": "./",
+      "skills": ["./skills/react-code-style"],
+      "displayName": "react-code-style",
+      "description": "Recommendations for writing React code: derived state, Effects, re-renders and memoization."
+    },
+    {
+      "name": "neverthrow",
+      "source": "./",
+      "skills": ["./skills/neverthrow"],
+      "displayName": "neverthrow",
+      "description": "Opinionated project convention for error handling with the neverthrow library. Enable it per project."
+    },
+    {
+      "name": "ts-pattern",
+      "source": "./",
+      "skills": ["./skills/ts-pattern"],
+      "displayName": "ts-pattern",
+      "description": "Opinionated project convention for pattern matching with the ts-pattern library. Enable it per project."
+    }
   ]
 }
