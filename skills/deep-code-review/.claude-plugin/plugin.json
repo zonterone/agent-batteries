@@ -1,8 +1,0 @@
-{
-  "name": "zonterone-skills",
-  "displayName": "deep-code-review",
-  "description": "Deep code review by three parallel reviewer subagents (quality, implementation, simplification), every finding verified against the code.",
-  "author": { "name": "zonterone" },
-  "repository": "https://github.com/zonterone/agent-batteries",
-  "license": "MIT"
-}

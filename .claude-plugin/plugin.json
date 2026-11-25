@@ -1,7 +1,6 @@
 {
   "name": "zonterone-skills",
-  "displayName": "ts-code-style",
-  "description": "Opinionated TypeScript/JavaScript code style guide.",
+  "description": "Shared manifest of the single-skill plugins; each marketplace entry loads one skill from skills/.",
   "author": { "name": "zonterone" },
   "repository": "https://github.com/zonterone/agent-batteries",
   "license": "MIT"
