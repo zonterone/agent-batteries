@@ -54,6 +54,14 @@
       "skills": ["./skills/ts-pattern"],
       "displayName": "ts-pattern",
       "description": "Opinionated project convention for pattern matching with the ts-pattern library. Enable it per project."
+    },
+    {
+      "name": "good-css",
+      "source": "./",
+      "skills": ["./skills/good-css"],
+      "displayName": "good-css",
+      "description": "Modern CSS techniques that replace breakpoint ladders, wrapper elements and scripts, in plain CSS, Tailwind, StyleX or any other authoring system.",
+      "homepage": "https://github.com/vojtaholik/good-css"
     }
   ]
 }

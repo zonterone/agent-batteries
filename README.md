@@ -52,6 +52,7 @@ This route installs skills only. The `ts-coding` bundle is a plugin, so pick its
 | `react-code-style` | Recommendations for writing React code: derived state, Effects, re-renders and memoization. |
 | `neverthrow` | Project convention for error handling with [neverthrow](https://github.com/supermacro/neverthrow). |
 | `ts-pattern` | Project convention for pattern matching with [ts-pattern](https://github.com/gvergnaud/ts-pattern). |
+| `good-css` | Modern CSS techniques that replace breakpoint ladders, wrapper elements and scripts. From [good-css](https://github.com/vojtaholik/good-css). |
 
 `neverthrow` and `ts-pattern` state a convention for the project they are enabled in. Install them at project scope, in projects that use the library:
 
