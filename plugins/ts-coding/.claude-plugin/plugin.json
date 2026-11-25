@@ -2,7 +2,7 @@
   "name": "ts-coding",
   "description": "Bundle that installs ts-code-style, code-comments, karpathy-guidelines and deep-code-review.",
   "author": { "name": "zonterone" },
-  "repository": "https://github.com/zonterone/cc-batteries",
+  "repository": "https://github.com/zonterone/agent-batteries",
   "license": "MIT",
   "dependencies": ["ts-code-style", "code-comments", "karpathy-guidelines", "deep-code-review"]
 }

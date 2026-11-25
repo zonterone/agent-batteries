@@ -1,4 +1,4 @@
-# cc-batteries
+# agent-batteries
 
 A Claude Code plugin marketplace. `.claude-plugin/marketplace.json` lists every plugin.
 
@@ -10,6 +10,7 @@ A Claude Code plugin marketplace. `.claude-plugin/marketplace.json` lists every 
 ## Conventions
 
 - Every skill plugin's manifest `name` is `zonterone-skills`. The manifest name is the namespace, so skills load as `zonterone-skills:<skill>`. The marketplace entry name is the install key and equals the folder name; `displayName` repeats it for the `/plugin` UI.
+- The marketplace `name` stays `zonterone-cc-batteries`, even though the repo is `zonterone/agent-batteries`. Every install is keyed `<plugin>@zonterone-cc-batteries` in users' settings, so a new name orphans existing installs.
 - A composite plugin takes its own unique manifest `name`. Claude Code registers hooks for one plugin per manifest name.
 - Leave `version` out of every manifest and entry. The commit SHA is the version, and each push to `main` reaches users as an update; a written `version` pins users until it is bumped.
 - Display fields (`description`, `author`, `repository`, `license`) live in `plugin.json`; a skill adapted from an upstream also carries `homepage` pointing at it. A marketplace entry holds `name` and `source` only.

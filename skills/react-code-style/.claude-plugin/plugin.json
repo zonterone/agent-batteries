@@ -3,6 +3,6 @@
   "displayName": "react-code-style",
   "description": "Recommendations for writing React code: derived state, Effects, re-renders and memoization.",
   "author": { "name": "zonterone" },
-  "repository": "https://github.com/zonterone/cc-batteries",
+  "repository": "https://github.com/zonterone/agent-batteries",
   "license": "MIT"
 }

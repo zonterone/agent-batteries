@@ -1,4 +1,4 @@
-# cc-batteries
+# agent-batteries
 
 A collection of Claude Code skills, packaged as a plugin marketplace. Each skill is its own plugin, so you install only the ones you want.
 
@@ -7,7 +7,7 @@ A collection of Claude Code skills, packaged as a plugin marketplace. Each skill
 Add the marketplace once:
 
 ```sh
-claude plugin marketplace add zonterone/cc-batteries
+claude plugin marketplace add zonterone/agent-batteries
 ```
 
 Then install the bundle:
@@ -29,13 +29,13 @@ Skills load under the `zonterone-skills` namespace, for example `zonterone-skill
 The skills also install with the [`skills` CLI](https://github.com/vercel-labs/skills), into Claude Code or any other agent it supports:
 
 ```sh
-npx skills add zonterone/cc-batteries
+npx skills add zonterone/agent-batteries
 ```
 
 or a single skill:
 
 ```sh
-npx skills add zonterone/cc-batteries --skill ts-pattern -a claude-code
+npx skills add zonterone/agent-batteries --skill ts-pattern -a claude-code
 ```
 
 This route installs skills only. The `ts-coding` bundle is a plugin, so pick its skills one by one with repeated `--skill`. Skills load without a namespace, for example `ts-pattern`, and update with `npx skills update`. `deep-code-review` runs Claude Code subagents, so it needs Claude Code.

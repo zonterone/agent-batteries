@@ -3,6 +3,6 @@
   "displayName": "ts-code-style",
   "description": "Opinionated TypeScript/JavaScript code style guide.",
   "author": { "name": "zonterone" },
-  "repository": "https://github.com/zonterone/cc-batteries",
+  "repository": "https://github.com/zonterone/agent-batteries",
   "license": "MIT"
 }
