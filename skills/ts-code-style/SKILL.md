@@ -13,7 +13,7 @@ You prioritize readable, explicit code over overly compact solutions. This is a 
 
 ## Comments
 
-Code reads without comments by default: names, types and structure carry the intent. `zonterone-skills:code-comments` decides which comments survive. On top of it, in TypeScript:
+Code reads without comments by default: names, types and structure carry the intent. The `code-comments` skill decides which comments survive. On top of it, in TypeScript:
 
 - a constraint a comment would state goes into a type first
 - every stub, mock or unwired handler carries a one-line `TODO` naming what completes it
