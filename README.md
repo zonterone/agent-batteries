@@ -24,6 +24,22 @@ claude plugin install ts-pattern@zonterone-cc-batteries
 
 Skills load under the `zonterone-skills` namespace, for example `zonterone-skills:ts-pattern`.
 
+### With `npx skills`
+
+The skills also install with the [`skills` CLI](https://github.com/vercel-labs/skills), into Claude Code or any other agent it supports:
+
+```sh
+npx skills add zonterone/cc-batteries
+```
+
+or a single skill:
+
+```sh
+npx skills add zonterone/cc-batteries --skill ts-pattern -a claude-code
+```
+
+This route installs skills only. The `ts-coding` bundle is a plugin, so pick its skills one by one with repeated `--skill`. Skills load without a namespace, for example `ts-pattern`, and update with `npx skills update`. `deep-code-review` runs Claude Code subagents, so it needs Claude Code.
+
 ## Plugins
 
 | Plugin | What it does |
